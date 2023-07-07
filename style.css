@@ -1,0 +1,224 @@
+html {
+    scroll-behavior: smooth; 
+  }
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    max-width: 1520px;
+    margin: auto;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+    background-color: #F0FFF0;
+    min-height: 100vh;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.header {
+    position: fixed;
+    width: 100%;
+    min-width: 50px;
+    background-color: #004aad;
+}
+.nav_list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-right: 50px;
+}
+.nav_list .nav_item {
+    display: inline;
+    color: #FFFF00;
+    padding: 0 10px;
+}
+main {
+    padding: 40px 300px 20px 300px;
+}
+.profile {
+    display: flex;
+    justify-content: space-between;
+}
+.profile .rectangle {
+    display: block;
+	margin: 0 auto;
+	width: 280px;
+	height: 4px;
+	background-color: #004aad;
+}
+.profile h1 {
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 10px;
+    line-height: 50px;
+    word-spacing: 3px;
+    color: #ff3131;
+}
+.profile .profile_subheader {
+    line-height: 50px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #ff3131;
+    text-transform: uppercase;
+}
+.rectangle2 {
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+	width: 1000px;
+	height: 10px;
+	background-color: #004aad; 
+}
+.cont_and_sum {
+    display: flex;
+    justify-content: space-around;
+}
+.cont_and_sum .contacts .contacts_header {
+    margin-top: 40px;
+    color: #FFFF00;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.cont_and_sum .contacts .contacts_list {
+    margin-top: 20px;
+    color: #ff3131;
+    line-height: 40px;
+    width: 265px;
+    font-weight: 300;
+}
+.cont_and_sum .summary_header{
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: #FFFF00;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.cont_and_sum .summary {
+    margin-top: 20px;
+    margin-left: 250px;
+    text-align: center;
+    color: #ff3131;
+}
+.cont_and_sum .summary_text {
+    margin-top: 20px;
+    font-weight: 300;
+}
+.skills_code {
+    display: flex;
+    justify-content: space-around;
+}
+.skills_code .skills_header {
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: #FFFF00;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.code .code_header {
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: #FFFF00;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.skills_code .skills_item {
+    margin-top: 20px;
+    color: #ff3131;
+    line-height: 40px;
+    /* width: 265px; */
+    font-weight: 300;
+}
+.skills_code .skills_item span {
+    color: #004aad; 
+}
+.courses_projects {
+    display: flex;
+    justify-content: space-around;
+}
+.courses_projects .courses_header {
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: #FFFF00;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.courses_projects .courses_item {
+    margin-top: 20px;
+    color: #ff3131;
+    line-height: 40px;
+    font-weight: 300;
+}
+.courses_projects .projects_header {
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: #FFFF00;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.courses_projects .projects_item {
+    margin-top: 20px;
+    color: #ff3131;
+    line-height: 40px;
+    font-weight: 300;
+}
+.education_eng {
+    display: flex;
+    justify-content: space-around;
+}
+.education_eng .education_header {
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: #FFFF00;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.education_eng .education_text {
+    margin-top: 20px;
+    color: #ff3131;
+    line-height: 40px;
+    font-weight: 300;
+}
+.education_eng .english_header {
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: #FFFF00;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.education_eng .english_text {
+    margin-top: 20px;
+    color: #ff3131;
+    /* line-height: 40px; */
+    font-weight: 300;
+}
+.footer {
+    min-width: 50px;
+    background-color: #004aad;
+}
+.footer .footer_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.footer .logo {
+    display: block;
+    margin-left: 500px;
+    width: 121px;
+    height: 45px;
+}
+.footer .footer_wrapper .div {
+    width: 50%;
+}
