@@ -203,7 +203,7 @@ main {
     font-weight: 300;
 }
 .footer {
-    min-width: 50px;
+    min-width: 1520px;
     background-color: #004aad;
 }
 .footer .footer_wrapper {
@@ -214,11 +214,11 @@ main {
     padding-right: 50px;
 }
 .footer .logo {
-    display: block;
+    display: inline-block;
     margin-left: 500px;
     width: 121px;
     height: 45px;
 }
 .footer .footer_wrapper .div {
-    width: 50%;
+    min-width: 100%;
 }
